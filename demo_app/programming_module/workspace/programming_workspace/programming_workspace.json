@@ -1,0 +1,93 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"cvNErqUxhp\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Programming Workspace</span>\",\"col\":12}},{\"id\":\"QAvAG6truE\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Normal DocType\",\"col\":3}},{\"id\":\"voHn0BxB-C\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Submittable DocType\",\"col\":3}},{\"id\":\"hFUMFTlxIJ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Single DocType\",\"col\":3}},{\"id\":\"aq-5VXp-3C\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"0X4yRDr237\",\"type\":\"card\",\"data\":{\"card_name\":\"Link Card\",\"col\":4}},{\"id\":\"ZgJrIb3ayk\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"QuickList Normal Doc\",\"col\":4}},{\"id\":\"mfpKcNIBIz\",\"type\":\"paragraph\",\"data\":{\"text\":\"This is a example for TEXT.\",\"col\":12}},{\"id\":\"14lcBbjthg\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Normal Doc Count\",\"col\":4}}]",
+ "creation": "2026-01-16 17:04:23.005970",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "idx": 0,
+ "indicator_color": "light-blue",
+ "is_hidden": 0,
+ "label": "Programming Workspace",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Link Card",
+   "link_count": 2,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Normal DocType",
+   "link_count": 0,
+   "link_to": "Normal Doctype",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Submittable DocType",
+   "link_count": 0,
+   "link_to": "Submittable",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-02-25 13:37:18.187820",
+ "modified_by": "Administrator",
+ "module": "Programming Module",
+ "name": "Programming Workspace",
+ "number_cards": [
+  {
+   "label": "Normal Doc Count",
+   "number_card_name": "for Normal DocType"
+  }
+ ],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [
+  {
+   "document_type": "Normal Doctype",
+   "label": "QuickList Normal Doc",
+   "quick_list_filter": "[]"
+  }
+ ],
+ "roles": [],
+ "sequence_id": 16.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Normal DocType",
+   "link_to": "Normal Doctype",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Single DocType",
+   "link_to": "Single DocType",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Submittable DocType",
+   "link_to": "Submittable",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "Programming Workspace"
+}

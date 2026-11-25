@@ -1,0 +1,270 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-01-16 12:39:55.751325",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "first_name",
+  "attach_rxfp",
+  "attach_dycy",
+  "attach_image_vmmu",
+  "button",
+  "check",
+  "link",
+  "text_avle",
+  "column_break_hhzt",
+  "date_rqgl",
+  "datetime",
+  "duration",
+  "float_wmyz",
+  "int",
+  "select",
+  "section_break_wvga",
+  "time",
+  "text_editor_gtnk",
+  "small_text_xzxx",
+  "signature",
+  "rating",
+  "read_only",
+  "phone",
+  "percent",
+  "password",
+  "markdown_editor",
+  "json",
+  "image",
+  "icon",
+  "html_editor",
+  "html",
+  "heading",
+  "geolocation",
+  "code",
+  "additional_data_tab",
+  "section_break_qrhw",
+  "color_flio",
+  "currency_wpff"
+ ],
+ "fields": [
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": "First Name"
+  },
+  {
+   "fieldname": "attach_rxfp",
+   "fieldtype": "Barcode"
+  },
+  {
+   "fieldname": "attach_dycy",
+   "fieldtype": "Attach"
+  },
+  {
+   "fieldname": "attach_image_vmmu",
+   "fieldtype": "Attach Image",
+   "label": "Attach Image"
+  },
+  {
+   "fieldname": "button",
+   "fieldtype": "Button",
+   "label": "Button"
+  },
+  {
+   "default": "0",
+   "fieldname": "check",
+   "fieldtype": "Check",
+   "label": "Check"
+  },
+  {
+   "fieldname": "column_break_hhzt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "color_flio",
+   "fieldtype": "Color"
+  },
+  {
+   "fieldname": "currency_wpff",
+   "fieldtype": "Currency",
+   "label": "Currency"
+  },
+  {
+   "fieldname": "date_rqgl",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "datetime",
+   "fieldtype": "Datetime",
+   "label": "DateTime"
+  },
+  {
+   "fieldname": "duration",
+   "fieldtype": "Duration",
+   "label": "Duration"
+  },
+  {
+   "fieldname": "float_wmyz",
+   "fieldtype": "Float",
+   "label": "Float"
+  },
+  {
+   "fieldname": "int",
+   "fieldtype": "Int",
+   "label": "Int"
+  },
+  {
+   "fieldname": "link",
+   "fieldtype": "Link",
+   "label": "Link",
+   "options": "ToDo"
+  },
+  {
+   "fieldname": "select",
+   "fieldtype": "Select",
+   "label": "Select",
+   "options": "A\nB\nC"
+  },
+  {
+   "fieldname": "text_avle",
+   "fieldtype": "Text",
+   "label": "Text"
+  },
+  {
+   "fieldname": "section_break_wvga",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "time",
+   "fieldtype": "Time",
+   "label": "Time"
+  },
+  {
+   "fieldname": "text_editor_gtnk",
+   "fieldtype": "Text Editor"
+  },
+  {
+   "fieldname": "small_text_xzxx",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "signature",
+   "fieldtype": "Signature",
+   "label": "Signature"
+  },
+  {
+   "fieldname": "rating",
+   "fieldtype": "Rating",
+   "label": "Rating"
+  },
+  {
+   "default": "This is Read Only",
+   "fieldname": "read_only",
+   "fieldtype": "Read Only",
+   "label": "Read Only"
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Phone",
+   "label": "Phone "
+  },
+  {
+   "fieldname": "percent",
+   "fieldtype": "Percent",
+   "label": "Percent"
+  },
+  {
+   "fieldname": "password",
+   "fieldtype": "Password",
+   "label": "Password"
+  },
+  {
+   "fieldname": "markdown_editor",
+   "fieldtype": "Markdown Editor",
+   "label": "Markdown Editor"
+  },
+  {
+   "fieldname": "json",
+   "fieldtype": "JSON",
+   "label": "JSON"
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Image",
+   "label": "Image",
+   "options": "attach_image_vmmu"
+  },
+  {
+   "fieldname": "icon",
+   "fieldtype": "Icon",
+   "label": "Icon"
+  },
+  {
+   "fieldname": "html_editor",
+   "fieldtype": "HTML Editor",
+   "label": "HTML Editor"
+  },
+  {
+   "fieldname": "html",
+   "fieldtype": "HTML",
+   "label": "HTML",
+   "options": "<h1>This is a heading tag</h1><h1></h1>"
+  },
+  {
+   "bold": 1,
+   "fieldname": "heading",
+   "fieldtype": "Heading",
+   "label": "Heading"
+  },
+  {
+   "fieldname": "geolocation",
+   "fieldtype": "Geolocation",
+   "label": "Geolocation"
+  },
+  {
+   "fieldname": "code",
+   "fieldtype": "Code",
+   "label": "Code",
+   "options": "Python"
+  },
+  {
+   "fieldname": "additional_data_tab",
+   "fieldtype": "Tab Break",
+   "label": "Additional Data"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "section_break_qrhw",
+   "fieldtype": "Section Break",
+   "label": "Collapsible Property"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-01-16 14:09:54.634497",
+ "modified_by": "Administrator",
+ "module": "Programming Module",
+ "name": "Demo Doctype",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "first_name"
+}

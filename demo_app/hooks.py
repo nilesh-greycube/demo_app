@@ -79,6 +79,11 @@ app_license = "mit"
 # 	"filters": "demo_app.utils.jinja_filters"
 # }
 
+jinja = {
+	"methods": "demo_app.jinja.add_marks",
+	# "filters": "demo_app.utils.jinja_filters"
+}
+
 # Installation
 # ------------
 
@@ -142,8 +147,22 @@ app_license = "mit"
 # 		"on_update": "method",
 # 		"on_cancel": "method",
 # 		"on_trash": "method"
-# 	}
+# 	},
+#     "ToDo": {
+#         # will run before a ToDo record is inserted into database
+#         "before_insert": "demo_app.crud_events.before_insert_todo",
+#     }
 # }
+
+doc_events = {
+	"Customer": {
+        "validate" : "demo_app.crud_events.validate_customer"
+	}
+}
+
+doctype_js = {
+    "Customer" : "public/js/customer.js"
+}
 
 # Scheduled Tasks
 # ---------------
